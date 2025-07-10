@@ -2,6 +2,8 @@ import { ThemeToggle } from '../components/ThemeToggle'; // Adjust path as neede
 import {StarBackground} from "@/components/StarBackground";
 import { Navbar } from "@/components/Navbar";
 import {HeroSection} from "../components/HeroSection";
+import { AboutSection } from '../components/AboutSesction';
+
 
 export const Home = () => {
     return (
