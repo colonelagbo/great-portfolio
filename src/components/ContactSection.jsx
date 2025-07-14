@@ -12,7 +12,7 @@ export const ContactSection = () => {
           Get In <span className="text-primary">Touch</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or looking for someone to hire? Feel free to reach out.
+          Have a project in mind or looking for someone to hire? Feel free to reach out to me.
           I'm always open to discussing new opportunities.
         </p>
 
