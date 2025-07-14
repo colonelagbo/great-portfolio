@@ -18,12 +18,12 @@ export const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 10); // correct property
+            setIsScrolled(window.scrollY > 10); 
         };
 
         window.addEventListener("scroll", handleScroll);
 
-        return () => window.removeEventListener("scroll", handleScroll); // correct cleanup
+        return () => window.removeEventListener("scroll", handleScroll); 
     }, []);
 
     return (
@@ -38,7 +38,7 @@ export const Navbar = () => {
         href="#hero"
         >
             <span className="relative z-10">
-            <span className="text-glow text-foreground">Emmanuel Agbo </span> Portfolio
+            <span className="text-glow text-foreground"> Agbo's </span> Portfolio
         </span>
         </a>
 {/* desktop nav */}

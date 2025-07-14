@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Twitter Clone",
     description: "A clone of the Twitter app using JavaScript.",
-    image: "/projects/Twitter.png",
+    image: "/projects/Twitter clone.png", 
     tags: ["HTML/CSS", "JavaScript"],
     demourl: "#",
     githubUrl: "#",
@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Counter App",
     description: "A counter app using JavaScript.",
-    image: "/projects/Counter App.png",
+    image: "/projects/Counter App.png", 
     tags: ["HTML/CSS", "JavaScript"],
     demourl: "#",
     githubUrl: "#",
@@ -23,12 +23,13 @@ const projects = [
     id: 3,
     title: "Meme Picker",
     description: "A meme picker app using JavaScript.",
-    image: "/projects/Meme Picker.png",
+    image: "/projects/Meme Picker.png", 
     tags: ["HTML/CSS", "JavaScript"],
     demourl: "#",
     githubUrl: "#",
   },
 ];
+
 
 export const ProjectSection = () => {
   return (

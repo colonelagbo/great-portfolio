@@ -16,19 +16,30 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              Hi, I’m a passionate Frontend Developer with over 3 years of experience building
-              responsive, user-focused web applications. I specialize in creating clean, accessible
-              interfaces using technologies like React, Tailwind CSS, and JavaScript. I enjoy
-              turning ideas into interactive, efficient products and constantly aim to improve user
-              experience through thoughtful design and performance optimization.
+              I’m a mostly self-taught frontend developer
+               with nearly two years of hands-on learning
+                through platforms like freeCodeCamp,
+                 ALX Africa, Scrimba, Coursera, and YouTube.
+                  During this time, I’ve built several interesting projects, 
+                  including this portfolio page, as part of my commitment to learning by doing. 
+                  My journey has been fueled by curiosity, consistency, 
+                  and a deep passion for turning ideas into interactive web experiences.
+
             </p>
 
             <p className="text-muted-foreground">
-              I’ve worked on various projects, from landing pages to full-fledged web apps,
-              collaborating with teams and clients to bring visions to life. I’m always exploring
-              new tools and keeping up with the latest in frontend development. Whether it’s writing
-              clean code or crafting smooth UI interactions, I take pride in every line of work I
-              deliver.
+              Throughout my self-taught journey, 
+              I’ve focused on applying what I learn by building 
+              real-world projects that solve everyday problems.
+               These projects have helped me strengthen my skills 
+               in responsive design, state management, 
+               API integration, and component-based architecture. 
+               I'm particularly drawn to creating clean,
+                accessible user interfaces with great user 
+                experience in mind. I'm constantly pushing myself to
+                 grow by learning new technologies and best practices,
+                  and I’m excited to contribute to meaningful projects 
+                  and collaborate with other developers.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -94,7 +105,7 @@ export const AboutSection = () => {
               </div>
             </div>
           </div>
-          {/* END RIGHT SIDE */}
+          
         </div>
       </div>
     </section>
