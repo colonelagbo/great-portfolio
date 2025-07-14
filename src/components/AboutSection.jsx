@@ -1,4 +1,4 @@
-import { Code, User, Briefcase } from "lucide-react";
+import { Code, User, Briefcase, FileText} from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -47,12 +47,13 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
 
-              <a
-                href=""
-                className="py-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                Download CV
-              </a>
+             <a
+  href="public/projects/CV.pdf"
+  download
+  className="cosmic-button w-fit flex items-center gap-2"
+>
+  Download CV <FileText size={18} />
+</a>
             </div>
           </div>
 
